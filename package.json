@@ -1,0 +1,24 @@
+{
+    "name": "prototype-dashboard",
+    "description": "Theme build for Prototype Dashboard",
+    "version": "0.0.1",
+    "engines": {
+        "ghost": ">=3.0.0",
+        "ghost-api": "v3"
+    },
+    "author": {
+        "name": "Prototype Dev Team",
+        "email": "contacto@prototype.mx"
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme"
+    ],
+    "config": {
+        "posts_per_page": 2
+    },
+    "dependencies": {
+        "bootstrap": "^4.6.0"
+    }
+}
