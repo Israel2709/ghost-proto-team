@@ -1,13 +1,15 @@
-{{!< default}} <div class="container-fluid">
+{{!< default}} 
+<div class="container">
     <div class="row">
-        <div class="col-12 col-md-2">
-            <!--lado izquierdo-->
+        <div class="col-12 col-md-3">
+            {{> cards-left}}
         </div>
-        <div class="col-2 col-md-8">
-            <div class="card">
-                <div class="card-body">
-                    <h1>aquí va el header</h1>
-                </div>
+        <div class="col-12 col-md-6">
+            <div class="text-center">
+                {{> header}}
+            </div>
+            <div class="mt-3 mb-3">
+                {{> files}}
             </div>
             <div class="row">
                 <div class="col-12">
@@ -20,8 +22,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-2">
-            <!-- lado derecho-->
+        <div class="col-12 col-md-3">
+            {{> cards-right}}
         </div>
     </div>
 </div>

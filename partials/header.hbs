@@ -1,4 +1,26 @@
-<header>
-    <h1>{{ @blog.title }}</h1>
-    <h2>{{ @blog.description }}</h2>
-</header>
+<a class="logo" href="{{@site.url}}">
+    {{#if @site.logo}}
+        <img class="logo-image" src="../assets/images/logo-prototype.svg" alt="{{@site.title}}">
+    {{else}}
+        <span class="logo-text">{{@site.title}}</span>
+    {{/if}}
+</a>
+<div class="search-wrapper mb-5 mt-5">
+    <input type="text" placeholder="¿Qué necesitas? Puedes buscar proyectos, herramientas...">
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="apps-wrapper d-flex justify-content-around">
+            <div class="app-icon-google"></div>
+            <div class="app-icon-gmail"></div>
+            <div class="app-icon-drive"></div>
+            <div class="app-icon-calendar"></div>
+            <div class="app-icon-slack"></div>
+            <div class="app-icon-jira"></div>
+            <div class="app-icon-confluence"></div>
+            <div class="app-icon-invision"></div>
+            <div class="app-icon-sketch"></div>
+            <div class="app-icon-bamboo"></div>
+        </div>
+    </div>
+</div>
